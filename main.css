@@ -141,7 +141,7 @@ animation: color 10s linear infinite;
   right: 0;
   top: 10%; /* Adjust this value to move the positioned div up and down */
   text-align: left;
-  width: 20%; /* Set the width of the positioned div */
+  width: 40%; /* Set the width of the positioned div */
 }
 
 
@@ -149,17 +149,23 @@ animation: color 10s linear infinite;
 @media only screen and (max-width: 600px) {
   .name{
     font-size: 25px;
+    text-align: right;
   } 
   
   .gd{
     font-size: 15px;
   }
+
+  .svg{
+    width: 65%;
+  }
+  
   .gallery{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-gap: 10px;
-    transform: scale(.85);
+    transform: scale(.65);
     
    }
    .portrait{
@@ -170,12 +176,7 @@ animation: color 10s linear infinite;
   }
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 12px;}
-  .svg {
-    height: 50%;
-    width: 50%;
-    margin-top: -120px;
-    padding-left: 65%;
-  }
+
 }
 
 
