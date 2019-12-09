@@ -1,0 +1,184 @@
+.gallery {
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: repeat(7, 400px);
+  grid-gap: 7px;
+  margin-left: 160px;
+
+}
+@media only screen and (max-width: 600px) {
+.name{
+  font-size: 30px;
+} 
+
+.gd{
+  font-size: 20px;
+}
+.gallery{
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-rows: repeat(7, 400px);
+  grid-gap: 7px;
+  transform: scale(.75);
+ }
+ .portrait{
+  padding-bottom: 160px;
+}
+.aboutme {
+  font-size: 8px;
+}
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+.svg {
+  height: 50%;
+  width: 50%;
+  margin-top: -120px;
+  padding-left: 65%;
+}
+
+.name{
+  font-size: 20px;
+
+}
+}
+body {
+    background: rgb(218, 245, 232);
+    font-family: 'Montserrat', sans-serif;
+ }
+.name {
+   font-family: 'Fugaz One', cursive;
+   font-size: 50px;
+ }
+.gd {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 35px;
+
+ }
+.svg {
+   height: 80%;
+   width: 80%;
+   margin-top: -120px;
+   padding-left: 10%;
+ }
+  
+		.st0{fill:none;stroke:#231F20;stroke-width:3;stroke-miterlimit:10;}
+		.st1{fill:#231F20;stroke:#231F20;stroke-miterlimit:10;}
+		.st2{fill:none;stroke:#231F20;stroke-miterlimit:10;}
+		.st3{fill:none;stroke:#231F20;stroke-width:0.75;stroke-miterlimit:10;}
+		.st4{fill:#231F20;stroke:#231F20;stroke-width:3;stroke-miterlimit:10;}
+		.st5 {stroke:#231F20;stroke-miterlimit:10;}
+		.st6{stroke:#231F20;stroke-miterlimit:10;}
+    .st7{stroke:#231F20;stroke-width:2;stroke-miterlimit:10;}
+  
+
+
+#glasses_lenses{
+
+left: 40%;
+-webkit-animation: color 10s linear infinite;
+animation: color 10s linear infinite;
+}
+
+@keyframes color {
+0% {
+   fill: lightskyblue;
+}
+
+10% {
+   fill: aquamarine;
+}
+
+20% {
+   fill: lightgreen;
+}
+
+30% {
+   fill: yellowgreen;
+}
+
+40% {
+   fill: yellow;
+}
+
+50% {
+   fill: lightsalmon;
+}
+60% {
+  fill: yellow;
+}
+
+70% {
+  fill: yellowgreen;
+}
+
+80% {
+  fill: lightgreen;
+}
+
+90% {
+  fill: aquamarine;
+}
+
+100% {
+  fill: lightskyblue;
+}
+}
+
+.name {
+  text-align: center;
+}
+
+.text {
+  padding-left: 60%; 
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(185, 181, 181);
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sidenav a:hover {
+  color: plum;
+}
+
+.aboutme{
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.aboutme .text{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%; /* Adjust this value to move the positioned div up and down */
+  text-align: left;
+  width: 60%; /* Set the width of the positioned div */
+}
+
+.portrait {
+  width: 100vw;
+}
+
+
+
+
+

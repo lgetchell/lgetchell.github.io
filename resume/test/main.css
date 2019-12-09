@@ -1,0 +1,92 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Monserrat';
+  font-size: 40px;
+}
+
+svg {
+	position: absolute;
+	top:0%;
+	left:20%;
+	width:50%;
+	height:50%;
+	fill: red;
+	background: url(heart.svg) no-repeat 50px center;
+-webkit-animation:color 10s linear infinite;
+	animation:color 5s linear infinite;
+	/* transition: background-position .8s; */
+}
+
+
+#heart2 {
+	top:30%;
+	left:40%;
+	fill:red;
+	-webkit-animation:beat 10s linear infinite;
+	animation:beat 10s linear infinite;
+}
+
+@keyframes beat {
+	0%, 100% {
+		top: 30%;
+		fill: orange;
+	}
+	50% {
+		top: 100%;
+		fill: yellow;
+	}
+}
+
+@-webkit-keyframes color {
+	0% {
+	  fill:#FFFFFF;
+  }
+	12% {
+		color:orange;
+	}
+	24% {
+		color: yellow;
+	}
+	36% {
+		color: green;
+	}
+	48% {
+		color: blue;
+	}
+  	60% {
+		color:indigo;
+	}
+	72% {
+		color: purple;
+	}
+	80% {
+	color: #ff6ebd;
+	}
+}
+
+@keyframes color {
+	0% {
+	  fill:red;
+  }
+	12% {
+		fill:orange;
+	}
+	24% {
+		fill: yellow;
+	}
+	36% {
+		fill: green;
+	}
+	48% {
+		fill: blue;
+	}
+  60% {
+		fill:indigo;
+	}
+	72% {
+		fill: purple;
+	}
+	80% {
+	fill: #ff6ebd;
+	}
+}
